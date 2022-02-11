@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body{
+      overflow-x: hidden;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: black;
+  }
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+}
+
+  .search {
+    width: 30%;
+    margin: 0 15px;
+    height: 80%;
+  }
+  .search form {
+    width: 90%;
+    height: 100%;
+    background-color: #eff2f5;
+    border-radius: 20px;
+    display: flex;
+  }
+  .search form input {
+    width: 660%;
+    outline: 0;
+    border: none;
+    padding: 6px 25px;
+    background-color: transparent;
+  }
+  .search form button {
+    width: 20px;
+    outline: 0;
+    border: none;
+    background-color: transparent;
+  }
+  #search-btn {
+    height: 100%;
+    padding: 0 5px;
+    width: 100%;
+  }
+  #search-btn img {
+    width: 18px;
+    margin-top: 6px;
+  }
+  .account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+  }
+  .logo {
+    width: 30%;
+    display: flex;
+  }
+  .nav-img {
+    width: 30px;
+    margin-left: 15px;
+  }
+  .logo-img {
+    width: 20%;
+    background-blend-mode: multiply;
+  }
+  .category {
+    height: 92vh;
+    z-index: 100;
+    min-width: 190px;
+    max-width: 15vw;
+    display: flex;
+    margin-top: 40px;
+    background: #fff;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    position: static;
+    overflow-y: auto;
+    flex-direction: column;
+  }
+  .group {
+    margin: 50px 5px;
+    width: 100%;
+    border-bottom: 1px solid #d8dadb;
+  }
+  .option {
+    width: 105%;
+    margin: 15px -15px;
+    display: flex;
+    padding: 5px;
+    transition: all 0.2s ease;
+    align-items: center;
+  }
+  .option:hover {
+    background-color: #e5e6e7;
+  }
+  .option-image {
+    width: 30px;
+  }
+  .option span {
+    font-size: large;
+    padding: 0 20px;
+  }
+  main {
+    display: flex;
+    justify-content: space-between;
+  }
+  .sidebar-responsive {
+    margin-left: -1078px;
+  }
+  #menu {
+    width: 15px;
+    margin: 15px;
+    height: 50%;
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 1700px) {
+    body {
+      overflow-x: hidden;
+    }
+    .option span {
+      font-size: medium;
+      padding: 0 20px;
+    }
+    .option {
+      width: 105%;
+      margin: 15px -25px;
+      display: flex;
+      padding: 5px;
+      transition: all 0.2s ease;
+      align-items: center;
+    }
+
+    .category {
+      max-width: 4vw !important;
+      z-index: 100 !important;
+      min-width: 55px !important;
+    }
+  }
+  @media screen and (max-width: 1350px) {
+    .logo-img {
+        width: 30%;
+        background-blend-mode: multiply;
+      }
+  }
+  @media screen and (max-width: 950px) {
+  
+ nav {
+      width: 100vw !important;
+      height: 6vh;
+      display: flex;
+      align-items: center;
+      margin-bottom: 30px !important;
+      justify-content: center;
+    }
+        body {
+      overflow-y: hidden;
+    }
+    .search {
+      min-width: 17%;
+      margin: 0 10px;
+      height: 60%;
+    }
+    #menu {
+      max-width: 10px;
+    }
+    .logo-img {
+      width: 50px;
+    }
+  }
+  @media screen and (max-width: 620px) {
+    nav {
+        min-width: 98vw !important;
+        height: 7vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 35px;
+      } 
+      .account {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 15vw;
+      }
+      .logo {
+        width: 17%;
+        display: flex;
+        margin-left: -20px;
+      }
+      .nav-img {
+        width:16px;
+        margin-left: 10px;
+      }
+     
+      .search {
+        width: 35%;
+        margin: 0 15px;
+        height: 60%;
+      }
+ /*     .search form input {
+      width: 300%;
+      outline: 0;
+      border: none;
+      padding: 0 15px;
+      background-color: transparent;
+    }
+    .search form button {
+      width: 10px;
+      outline: 0;
+      border: none;
+      background-color: transparent;
+    }
+    .logo {
+      width: 10vw;
+    }
+    .nav-img {
+      width: 20px;
+    }
+   
+    .logo-img {
+      width: 35px;
+    } */
+  }
